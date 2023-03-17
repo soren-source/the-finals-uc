@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\features">
+      <UniqueIdentifier>{9317f659-8286-4a1b-a114-c282ba000ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\graphical">
+      <UniqueIdentifier>{0d8cb241-93ed-4209-932c-02b3c122c45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\memory">
+      <UniqueIdentifier>{dd40c98f-0577-44cd-8acd-e16fb8486e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\vendor">
+      <UniqueIdentifier>{092ba22b-5d07-4748-bb10-8548e74a90ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\features">
+      <UniqueIdentifier>{e9e7ab23-e0b2-4321-ad97-1e45462a52cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\graphical">
+      <UniqueIdentifier>{389a5f97-38b5-4ddb-87c5-4539a6e9ac83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\memory">
+      <UniqueIdentifier>{d9b0fe39-a872-4577-9b92-20c0a28f36db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\vendor\fonts">
+      <UniqueIdentifier>{1909a776-658c-4d86-8049-2448b356aff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\vendor\imgui">
+      <UniqueIdentifier>{52e7581c-97ff-4c13-b270-55b714e3fe95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\vendor\minhook">
+      <UniqueIdentifier>{9a4c75f5-6047-491c-b7a2-46a8ed8fad16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="esp.hpp">
+      <Filter>Headerdateien\features</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.hpp">
+      <Filter>Headerdateien\features</Filter>
+    </ClInclude>
+    <ClInclude Include="custom.hpp">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx12.h">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="trampoline.h">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="HDE\hde32.h">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="HDE\hde64.h">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="HDE\pstdint.h">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="HDE\table32.h">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="HDE\table64.h">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="tahoma.hpp">
+      <Filter>Headerdateien\vendor\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="font.hpp">
+      <Filter>Headerdateien\vendor\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer.h">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.hpp">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="main.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>Headerdateien\graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="pointers.hpp">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="render.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>Quelldateien\features</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>Quelldateien\features</Filter>
+    </ClCompile>
+    <ClCompile Include="custom.cpp">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx12.cpp">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Headerdateien\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="trampoline.c">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="HDE\hde32.c">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="HDE\hde64.c">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.c">
+      <Filter>Headerdateien\vendor\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers.cpp">
+      <Filter>Quelldateien\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Quelldateien\graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
